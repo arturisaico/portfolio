@@ -1,0 +1,156 @@
+
+header{
+    background-image: url("../image/devin-walker-homepage.jpg");
+    background-attachment: fixed;
+    padding-bottom: 150px;
+}
+nav img{
+    width: 196Px;
+    margin: 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 15px #000;
+}
+
+nav ul {
+    float: right;
+    display: inline;
+   
+}
+nav li {
+ display: inline;
+ margin-right: 60px;
+ font-size: 28px;
+}
+
+.first div img{
+    width:50px;
+  padding-top: 140px;
+  margin:0 auto;
+
+}
+    
+.first {
+    padding-top: 145px;
+    text-align: center;
+    color: white;
+    font-size: 25px ;
+    font-family:'Lucida Sans';
+    height: 401px;
+    text-shadow: 1px 1px 15px #000;
+    font-weight: bold;
+    
+}
+.first h1{
+    font-size: 56px;
+
+}
+.ciao{
+    padding-top: 0px ;
+    background-color: rgb(207, 19, 19);
+
+}
+.testo{
+    background-color: white;
+    text-align: center;
+    padding-top: 145px;
+    
+    color: white;
+    font-size: 25px ;
+    font-family:'Lucida Sans';
+      
+}
+.testo p {
+    color: #6f6f6f;
+    font-family: "brandon-grotesque", sans-serif;
+    line-height: 2.0em;
+     
+     padding:5px 90px;
+}
+
+.ciao div{
+    padding:120px;
+}
+
+.barra{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+.div1{
+   padding-left: 30px;
+    font-size: 30px;
+    line-height: 5px;
+}
+.div1 p{
+    color:#736a6a;
+    font-size: 22px;
+    
+}
+.div2{
+   padding-right: 30px;
+    margin-top: 30px;
+}
+
+button{
+    padding: 20px;
+    background: transparent !important;
+    border: 2px solid #b4b4b4;
+    color: #b4b4b4;
+    font-weight: bold;
+
+}
+.mywork{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  
+    padding-bottom: 60px;
+}
+.immagini{
+   padding: 20px;
+}
+
+.container1{
+    max-width: 1080px;
+    margin: auto 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.service{
+    background-image: url("../image/home-services.jpg");
+    height: 625px;
+    background-attachment: fixed;
+    background-position: center;
+    line-height: 1.3em;
+}
+.service .titolo{
+    text-align: center;
+    padding-top: 148px;
+    color: white;
+}
+ .row{
+    color: white;
+    text-align: center;
+    
+}
+ .service p{
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5em;
+    text-align: inherit;
+ }
+.service h3{
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.testi{
+    margin-top: 90px;
+}
