@@ -59,15 +59,16 @@ nav li {
     padding-top: 145px;
     
     color: white;
-    font-size: 25px ;
+    font-size: 23px ;
     font-family:'Lucida Sans';
-      
+}
+.testo span{
+    color: black;
 }
 .testo p {
     color: #6f6f6f;
     font-family: "brandon-grotesque", sans-serif;
     line-height: 2.0em;
-     
      padding:5px 90px;
 }
 
@@ -82,7 +83,7 @@ justify-content: space-between;
 
 }
 .div1{
-   padding-left: 30px;
+   
     font-size: 30px;
     line-height: 5px;
 }
@@ -97,7 +98,7 @@ justify-content: space-between;
 }
 
 button{
-    padding: 20px;
+    padding: 15px 20px;
     background: transparent !important;
     border: 2px solid #b4b4b4;
     color: #b4b4b4;
@@ -153,4 +154,59 @@ button{
 }
 .testi{
     margin-top: 90px;
+}
+
+.wrap h2 a,.wrap2 h2 a{
+    color: black;
+}
+.meta {
+    color:#a79a9a;
+    
+}
+.meta a,.meta p {
+    color: #676767;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+.wrap button, .wrap2 button{
+    padding: 6px 10px;
+    font-size: 11px;
+}
+.wrap{
+    margin: 0 0 35px;
+    padding: 0 0 47px;
+    border-bottom: 1px dashed #CCC;
+}
+.wrap2{
+    margin: 0 0 35px;
+    padding: 0 0 47px;
+}
+.banner {
+    padding: 120px 0 120px !important;
+    background-image: url("../image/devin-amps.jpg");
+    background-attachment: fixed;
+}
+.banner div{
+    padding: 0 30px !important;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner p{
+    font-size: 32px;
+    color: white;
+    line-height: 1.5em;
+    font-family:'Lucida Sans';
+}
+.banner button{
+    color: white;
+    padding: 8px 25px;
+    margin-top: 19px;
+}
+.partner{
+    font-size: 14px;
+}
+.partner2{
+    font-weight: bold;
+    font-size: 14px;
 }
