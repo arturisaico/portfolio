@@ -3,8 +3,12 @@ header{
     background-image: url("../image/devin-walker-homepage.jpg");
     background-attachment: fixed;
     padding-bottom: 150px;
+    
 }
-nav img{
+.colornav{
+    background-color:transparent;
+}
+.logo{
     width: 196Px;
     margin: 15px;
 
@@ -116,6 +120,12 @@ button{
    padding: 20px;
 }
 
+.immagini:hover img{
+    -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .container1{
     max-width: 1080px;
     margin: auto 0;
@@ -210,3 +220,82 @@ button{
     font-weight: bold;
     font-size: 14px;
 }
+
+footer{
+    color: #7e7d7d;
+    background: #f1f0f0;
+    padding: 10px 0 10px;
+    
+}
+
+
+ /*<div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h4 class="text-white">Collapsed content</h4>
+      <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+
+<nav>
+
+            <img src="../public/image/logo-devin-svg.svg" alt="">
+
+
+            <ul class="mt-3">
+                <li>
+                    <a href=""> Home</a>
+                </li>
+                <li>
+                    <a href=""> About</a>
+                </li>
+                <li>
+                    <a href=""> Projects</a>
+                </li>
+                <li>
+                    <a href=""> Contact</a>
+                </li>
+                <li>
+                    <a href=""> Skills</a>
+                </li>
+            </ul>
+
+        </nav>
+        
+        
+        <div class="pos-f-t">
+        <img src="../public/image/logo-devin-svg.svg" alt="">
+            <div class="collapse float-right" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <ul class="mt-3">
+                        <li>
+                            <a href=""> Home</a>
+                        </li>
+                        <li>
+                            <a href=""> About</a>
+                        </li>
+                        <li>
+                            <a href=""> Projects</a>
+                        </li>
+                        <li>
+                            <a href=""> Contact</a>
+                        </li>
+                        <li>
+                            <a href=""> Skills</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark float-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </div>*/
